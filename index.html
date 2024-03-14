@@ -31,32 +31,6 @@
       <p>Text 1</p>
       <p>Text 2</p>
     </div>
-    <div class="col-sm-4">
-      <h3>
-        <button onclick="getLocation()">Try It</button>
-
-<p id="demo"></p>
-
-<script>
-const x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
-</h3>        
-      <p>This will show your location</p>
-      <p>14635284</p>
-    </div>
   </div>
 </div>
 
