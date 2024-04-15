@@ -8,6 +8,11 @@ ul {
 li a {
   display: inline;
   display: block;
-  padding: 30px;
+  padding: 16px;
   background-color: #dddddd;
+}
+H.Title {
+  border: 10px solid red;
+  border-radius: 10px;
+  font-size: 42px;
 }
