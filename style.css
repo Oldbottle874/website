@@ -15,4 +15,15 @@ H.Title {
   border: 10px solid red;
   border-radius: 10px;
   font-size: 42px;
+
+
+}
+P.textbox {
+  width: 230px;
+  border: 1px solid green;
+  padding: 20px;
+  margin: 5px;
+  background-color: #dddddd;
+
+
 }
